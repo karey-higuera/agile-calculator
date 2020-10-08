@@ -41,6 +41,7 @@ Inside of this project, you'll see the following file structure in the Explorer 
 ├── LICENSE
 ├── main.js
 ├── README.md
+├── reset.css
 └── style.css
 ```
 
@@ -50,4 +51,5 @@ Each file has a certain responsibility.
 * `LICENSE` is an MIT license which states that this project is open source.
 * `main.js` will hold the JavaScript functions that run your calculator.
 * `README.md` is this readme file, written in Markdown.
+* `reset.css` provides some basic CSS styles to normalize the browser behavior across different browsers. You shouldn't need to touch this file.
 * `style.css` will hold all of the CSS style configuration for your calculator.

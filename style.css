@@ -1,0 +1,33 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d3557;
+}
+
+#calculator {
+    display: grid;
+    height: 90vh;
+    width: clamp(500px, 50vw, 900px);
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "display",
+        "input";
+    border: 1px solid #457b9d;
+}
+
+#display {
+    grid-area: "display";
+    border: 1px solid #a8dadc;
+}
+
+#input {
+    grid-area: "input";
+    border: 1px solid #e63946;
+}
