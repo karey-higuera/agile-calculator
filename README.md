@@ -53,3 +53,7 @@ Each file has a certain responsibility.
 * `README.md` is this readme file, written in Markdown.
 * `reset.css` provides some basic CSS styles to normalize the browser behavior across different browsers. You shouldn't need to touch this file.
 * `style.css` will hold all of the CSS style configuration for your calculator.
+
+### Server Startup
+
+In the Explorer window, right-click on `index.html` and click **Open with Live Server**. This will open a browser window and show your application (`http://localhost:5500`). Any changes you make will automatically be reflected on the site as soon as you save your files.
